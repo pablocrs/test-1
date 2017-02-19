@@ -9,15 +9,16 @@
 @import "themes";
 
 // Objects
-@import "objects/_o-main-layout.scss";
+@import "objects/o-main-layout.scss";
 
 // Components
 @import "components/c-menu";
+@import "components/c-thumbnail";
 @import "components/c-subnav";
 @import "grid";
 
 // Sections
-@import "sections/images";
+@import "sections/s-images";
 
 // Helpers
 @import "helpers";

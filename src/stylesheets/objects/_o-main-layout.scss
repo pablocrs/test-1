@@ -10,10 +10,12 @@ body,html{
   height: 100%;
   width: 100%;
   position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
 
   >.o-main-layout__nav{
     position: fixed;
-    width: 300px;
+    width: 280px;
     top: 0;
     bottom: 0;
     left: -300px;
@@ -35,6 +37,8 @@ body,html{
 @media all and (min-width: map-get($breakpoints,medium)){
 
   .o-main-layout{
+
+    height: auto;
 
 
     >.o-main-layout__nav{
