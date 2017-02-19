@@ -10,6 +10,21 @@ fieldset, legend {
   padding: 0;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+
+* {
+  box-sizing: border-box;
+  &,
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+
+}
+
 li > {
 
   ol,
@@ -280,3 +295,4 @@ template {
 [hidden] {
   display: none;
 }
+

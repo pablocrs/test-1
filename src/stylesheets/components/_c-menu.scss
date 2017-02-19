@@ -1,0 +1,114 @@
+
+
+.c-menu{
+
+  position: relative;
+  padding: 0;
+  margin-bottom: 10px;
+  height: 50px;
+
+  .c-menu__logo{
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    flaot: left;
+  }
+
+  .c-menu__menu{
+
+    position: relative;
+    margin-top: 1px;
+    background-color: inherit;
+
+    display: table;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    .c-menu__item {
+
+      display: table-row;
+      display: block;
+
+      a {
+        line-height: 3.15rem;
+        text-align: center;
+        width: 100%;
+        display: block;
+        text-decoration: none;
+
+        &:hover,&:active,&:focus{
+          @extend .t-accent;
+        }
+      }
+    }
+
+  }
+
+  .c-menu__toggle{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+  #c-menu__toggle-cb{
+    display: none;
+    visibility: hidden;
+  }
+}
+
+
+@media all and (min-width: map-get($breakpoints,small)){
+
+}
+
+@media all and (min-width: map-get($breakpoints,medium)){
+
+
+  .c-menu{
+
+    height: auto;
+    margin: 0;
+
+    .c-menu__logo{
+      width: 20%;
+      float: left;
+    }
+
+    .c-menu__menu{
+      position: relative;
+      display: table;
+      float: left;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      width: 80%;
+
+      .c-menu__item{
+
+        display: table-cell;
+        display: block;
+        flex: 1 1 auto;
+
+        a{
+
+        }
+      }
+    }
+
+    .c-menu__toggle{
+      display: none;
+    }
+  }
+
+
+}
+
+@media all and (min-width: map-get($breakpoints,large)){
+
+
+}

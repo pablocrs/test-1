@@ -3,5 +3,18 @@
 $primary-color: blue;
 $accent-color: red;
 
+$border-default: 1px solid grey;
+
 $main-font: '';
 $secondary-font: '';
+
+$text-size : 16px;
+
+$breakpoints: (
+    small: 0,
+    medium: 640px,
+    large: 1024px,
+);
+
+$global-padding: 30px;
+

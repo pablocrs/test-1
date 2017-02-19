@@ -1,0 +1,66 @@
+
+
+
+
+@mixin t-default(){
+  background: whitesmoke;
+  color: black;
+
+  a{
+    color: $primary-color;
+    &:hover{
+      color: darken($primary-color,10%);
+    }
+  }
+}
+.t-default{
+  @include t-default();
+}
+
+
+@mixin t-dark(){
+  background: black;
+  color: white;
+
+  a{
+    color: $primary-color;
+    &:hover{
+      color: darken($primary-color,10%);
+    }
+  }
+}
+.t-dark{
+  @include t-dark();
+}
+
+
+@mixin t-primary(){
+  background: $primary-color;
+  color: white;
+
+  a{
+    color: white;
+    &:hover{
+      color: darken(white,10%);
+    }
+  }
+}
+.t-primary{
+  @include t-primary();
+}
+
+
+@mixin t-accent(){
+  background: $accent-color;
+  color: white;
+
+  a{
+    color: white;
+    &:hover{
+      color: darken(white,10%);
+    }
+  }
+}
+.t-accent{
+  @include t-accent();
+}

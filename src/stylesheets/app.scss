@@ -1,13 +1,23 @@
 
-@import "vars";
 
+// Globals
+@import "vars";
+@import "mixins";
 @import "globals";
 
+// Themes
+@import "themes";
+
+// Objects
+@import "objects/_o-main-layout.scss";
+
+// Components
+@import "components/c-menu";
+@import "components/c-subnav";
 @import "grid";
 
-@imrpot "themes";
+// Sections
+@import "sections/images";
 
-@import "components/c-menu"
-
-
-
+// Helpers
+@import "helpers";

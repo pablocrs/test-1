@@ -1,0 +1,59 @@
+
+body,html{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.o-main-layout{
+
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  >.o-main-layout__nav{
+    position: fixed;
+    width: 300px;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    transition: left 0.3s ease-in;
+    z-index: 100;
+  }
+
+  >.o-main-layout__main{
+    height: 100%;
+  }
+
+  &.is-active{
+    .o-main-layout__nav{
+      left: 0;
+    }
+  }
+}
+
+@media all and (min-width: map-get($breakpoints,medium)){
+
+  .o-main-layout{
+
+
+    >.o-main-layout__nav{
+      width: 100%;
+      position: fixed;
+      left: initial;
+      top: initial;
+      bottom: initial;
+      transition: none;
+      height: auto;
+    }
+
+    >.o-main-layout__main{
+      width: 100%;
+      padding-top: 50px;
+    }
+
+    &.is-active{
+      left: 0;
+    }
+  }
+}
