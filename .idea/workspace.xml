@@ -26,8 +26,8 @@
           <file leaf-file-name="_c-thumbnail.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../WilliamHills-1/src/stylesheets/components/_c-thumbnail.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -80,8 +80,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../WilliamHills-1/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="128" column="43" selection-start-line="128" selection-start-column="43" selection-end-line="128" selection-end-column="43" />
+                <state relative-caret-position="211">
+                  <caret line="106" column="45" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
@@ -126,8 +126,8 @@
         <option value="$PROJECT_DIR$/../WilliamHills-1/src/stylesheets/app.scss" />
         <option value="$PROJECT_DIR$/../WilliamHills-1/src/stylesheets/sections/_s-images.scss" />
         <option value="$PROJECT_DIR$/../WilliamHills-1/src/stylesheets/sections/_s-text.scss" />
-        <option value="$PROJECT_DIR$/../WilliamHills-1/src/index.html" />
         <option value="$PROJECT_DIR$/../WilliamHills-1/src/stylesheets/components/_c-thumbnail.scss" />
+        <option value="$PROJECT_DIR$/../WilliamHills-1/src/index.html" />
       </list>
     </option>
   </component>
@@ -359,12 +359,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487502579136</updated>
-      <workItem from="1487502581190" duration="17766000" />
+      <workItem from="1487502581190" duration="18152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17766000" />
+    <option name="totallyTimeSpent" value="18152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -605,18 +605,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../WilliamHills-1/src/index.html">
+    <entry file="file://$PROJECT_DIR$/../WilliamHills-1/src/stylesheets/components/_c-thumbnail.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="128" column="43" selection-start-line="128" selection-start-column="43" selection-end-line="128" selection-end-column="43" />
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../WilliamHills-1/src/stylesheets/components/_c-thumbnail.scss">
+    <entry file="file://$PROJECT_DIR$/../WilliamHills-1/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="211">
+          <caret line="106" column="45" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
           <folding />
         </state>
       </provider>
